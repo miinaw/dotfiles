@@ -19,42 +19,50 @@ formulas=(
     curl
     tree
     openssl
-    z
+    docker
     colordiff
-    "--without-etcdir zsh"
-    zsh-completions
-    "--with-cocoa --srgb emacs"
+    zsh
+    zplug
+    neovim
+    "--HEAD universal-ctags/universal-ctags/universal-ctags"
     cask
-    ansible
+    fzf
+    fzy
     peco
-    hub
     tig
     node
     python3
+    go
+    ruby
     lua
     "vim --with-lua"
+    gcc
+    pipenv
+    pyenv
+    pyenv-virtualenv
+    carthage
     mysql
     postgresql
     sqlite
-    "php55 --homebrew-apxs"
-    httpd22
     ricty
-    sqlite
-    composer
-    markdown
-    ctags
-    ssh-copy-id
-    phantomjs
-    mecab
+    ripgrep
+    direnv
+    jq
     diff-so-fancy
     thefuck
+    hub
+    graphviz
+    plantuml
+    reattach-to-user-namespace
+    ansiweather
 )
 
 "brew tap..."
-brew tap homebrew/dupes
-brew tap homebrew/versions
-brew tap homebrew/homebrew-php
-brew tap homebrew/apache
+brew tap homebrew/core
+brew tap homebrew/cask
+brew tap homebrew/cask-drivers
+brew tap homebrew/cask-fonts
+brew tap brewsci/science
 brew tap sanemat/font
 
 echo "start brew install apps..."
@@ -64,21 +72,15 @@ done
 
 casks=(
     dropbox
-    evernote
-    skitch
-    bettertouchtool
     google-chrome
     google-japanese-ime
     slack
     alfred
     iterm2
-    libreoffice
     cyberduck
-    vlc
-    atom
+    docker
+    gotop
     virtualbox
-    vagrant
-    vagrant-manager
 )
 
 echo "start brew cask install apps..."
@@ -90,9 +92,7 @@ brew cleanup
 brew cask cleanup
 
 cat << END
-
 **************************************************
 HOMEBREW INSTALLED! bye.
 **************************************************
-
 END
