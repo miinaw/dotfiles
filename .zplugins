@@ -8,6 +8,19 @@ source $ZPLUG_HOME/init.zsh
 ## General config
 POWERLEVEL9K_MODE='nerdfont-complete'
 
+prompt_music_status(){
+  local color='%F{black}'
+  running=`osascript -e 'application "Spotify" is running'`;
+  if [[ "$running" == "true" ]]; then
+    state=`osascript -e 'tell application "Spotify" to player state as string'`;
+    if [[ "$state" == "playing" ]]; then
+      track=`osascript -e 'tell application "Spotify" to name of current track as string'`;
+      duration=`osascript -e 'tell application "Spotify" to ((round (round ((duration of current track) / 1000) / 60) rounding down) as string) & ":" & text -2 thru -1 of ("00" & (round ((duration of current track) / 1000) mod 60))'`;
+      echo -n  " \uE0B6%{$color%}%K{green} \uf1bc $track ($duration)" ;
+    fi
+  fi
+}
+
 ## Colors
 POWERLEVEL9K_PYENV_BACKGROUND=107
 POWERLEVEL9K_PYENV_FOREGROUND='white'
@@ -56,7 +69,7 @@ POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="╭"
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="╰\uF460\uF460\uF460 "
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir pyenv aws vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status date time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status music_status date time)
 
 #----------------------
 # /theme settings
