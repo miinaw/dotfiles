@@ -87,3 +87,16 @@ function history-all { history -E 1 }
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH=$PATH:$HOME/.nodebrew/current/bin
+export PATH="$HOME/.pyenv/shims:$PATH"
+export PYTHONPATH="/path/to/your/module/:${PYTHONPATH}"
+alias python=python3
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/yokoyamaminami/.nodebrew/node/v10.5.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/yokoyamaminami/.nodebrew/node/v10.5.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/yokoyamaminami/.nodebrew/node/v10.5.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/yokoyamaminami/.nodebrew/node/v10.5.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /Users/yokoyamaminami/.nodebrew/node/v10.5.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/yokoyamaminami/.nodebrew/node/v10.5.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh
