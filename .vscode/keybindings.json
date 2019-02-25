@@ -29,5 +29,10 @@
     "key": "ctrl+d",
     "command": "workbench.action.terminal.focus",
     "when": "filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "cursorLineStart",
+    "when": "textInputFocus"
   }
 ]
