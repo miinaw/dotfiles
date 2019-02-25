@@ -1,0 +1,14 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": false,
+    "window.zoomLevel": 1,
+    "editor.fontSize": 14,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "editor.foldingStrategy": "indentation",
+    "toggl.apiKey": "dfb4e1fea0feaadcd97eb93e07988d31",
+    "python.jediEnabled": false,
+    "spotify.showToggleRepeatingButton": true,
+    "window.title": "${folderPath}${separator}${activeEditorShort}${separator}${rootName}"
+}
