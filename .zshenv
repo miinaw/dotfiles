@@ -1,4 +1,4 @@
-export ZDOTDIR=$HOME/dotfiles/.zsh
+export ZDOTDIR=$HOME
 
 export PATH="/usr/local/bin:$PATH"
 
