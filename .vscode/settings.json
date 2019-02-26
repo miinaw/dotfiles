@@ -15,5 +15,6 @@
     "liveshare.account": "WQQB-RVPQ-ZJZK-RBKR",
     "window.title": "${folderPath}${separator}${activeEditorShort}${separator}${rootName}",
     "breadcrumbs.enabled": true,
-    "window.restoreWindows": "all"
+    "window.restoreWindows": "all",
+    "workbench.iconTheme": "vscode-icons"
 }
