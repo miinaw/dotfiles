@@ -6,11 +6,12 @@ setopt nonomatch
 
 export LANG=ja_JP.UTF-8
 
+
 #----------------------
 # 各設定ファイルの読み込み
 #----------------------
 source "$ZDOTDIR/dotfiles/.zsh/.zplugins"
-source "$ZDOTDIR/ditfiles/.zsh/.zaliases"
+source "$ZDOTDIR/dotfiles/.zsh/.zaliases"
 source "$ZDOTDIR/dotfiles/.zsh/.zcommand"
 
 # setting nvim socket
