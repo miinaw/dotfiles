@@ -9,9 +9,9 @@ export LANG=ja_JP.UTF-8
 #----------------------
 # 各設定ファイルの読み込み
 #----------------------
-source "$ZDOTDIR/.zplugins"
-source "$ZDOTDIR/.zaliases"
-source "$ZDOTDIR/.zcommand"
+source "$ZDOTDIR/dotfiles/.zsh/.zplugins"
+source "$ZDOTDIR/ditfiles/.zsh/.zaliases"
+source "$ZDOTDIR/dotfiles/.zsh/.zcommand"
 
 # setting nvim socket
 export NVIM_LISTEN_ADDRESS=/tmp/nvimsocket
@@ -56,7 +56,7 @@ zstyle ':vcs_info:*' actionformats '(%s)-[%b|%a]'
 # history
 #----------------------
 # 履歴ファイルの保存先
-export HISTFILE=${HOME}/.zhistory
+export HISTFILE=${HOME}/dotfiles/.zsh/.zhistory
 # メモリに保存される履歴の件数
 export HISTSIZE=1000
 # 履歴ファイルに保存される履歴の件数
