@@ -6,11 +6,12 @@ setopt nonomatch
 
 export LANG=ja_JP.UTF-8
 
+
 #----------------------
 # 各設定ファイルの読み込み
 #----------------------
 source "$ZDOTDIR/dotfiles/.zsh/.zplugins"
-source "$ZDOTDIR/ditfiles/.zsh/.zaliases"
+source "$ZDOTDIR/dotfiles/.zsh/.zaliases"
 source "$ZDOTDIR/dotfiles/.zsh/.zcommand"
 
 # setting nvim socket
@@ -89,7 +90,6 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH=$PATH:$HOME/.nodebrew/current/bin
 export PATH="$HOME/.pyenv/shims:$PATH"
 export PYTHONPATH="/path/to/your/module/:${PYTHONPATH}"
-alias python=python3
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`

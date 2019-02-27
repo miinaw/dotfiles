@@ -3,7 +3,7 @@
     "editor.tabSize": 2,
     "diffEditor.ignoreTrimWhitespace": true,
     "editor.trimAutoWhitespace": false,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "editor.fontSize": 14,
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.copyOnSelection": true,
@@ -13,5 +13,8 @@
     "python.jediEnabled": false,
     "spotify.showToggleRepeatingButton": true,
     "liveshare.account": "WQQB-RVPQ-ZJZK-RBKR",
-    "window.title": "${folderPath}${separator}${activeEditorShort}${separator}${rootName}"
+    "window.title": "${folderPath}${separator}${activeEditorShort}${separator}${rootName}",
+    "breadcrumbs.enabled": true,
+    "window.restoreWindows": "all",
+    "workbench.iconTheme": "vscode-icons"
 }
