@@ -9,7 +9,7 @@
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.fontFamily": "Hack Nerd Font",
     "editor.foldingStrategy": "indentation",
-    "toggl.apiKey": "dfb4e1fea0feaadcd97eb93e07988d31",
+    "toggl.apiKey": "",
     "python.jediEnabled": false,
     "spotify.showToggleRepeatingButton": true,
     "liveshare.account": "WQQB-RVPQ-ZJZK-RBKR",
