@@ -16,5 +16,5 @@
     "window.title": "${folderPath}${separator}${activeEditorShort}${separator}${rootName}",
     "breadcrumbs.enabled": true,
     "window.restoreWindows": "all",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "seti"
 }
