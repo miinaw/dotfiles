@@ -16,5 +16,8 @@
     "window.title": "${folderPath}${separator}${activeEditorShort}${separator}${rootName}",
     "breadcrumbs.enabled": true,
     "window.restoreWindows": "all",
-    "workbench.iconTheme": "seti"
+    "workbench.iconTheme": "seti",
+    "window.titleBarStyle": "custom",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
