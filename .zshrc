@@ -90,6 +90,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH=$PATH:$HOME/.nodebrew/current/bin
 export PATH="$HOME/.pyenv/shims:$PATH"
 export PYTHONPATH="/path/to/your/module/:${PYTHONPATH}"
+export PATH=$HOME/.nodebrew/current/bin:$PATH;
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
