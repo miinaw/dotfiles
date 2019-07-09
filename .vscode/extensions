@@ -5,12 +5,15 @@ eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
+GitHub.vscode-pull-request-github
+GrapeCity.gc-excelviewer
+jzmstrjp.color-the-tag-name
 mechatroner.rainbow-csv
 MS-CEINTL.vscode-language-pack-ja
 ms-python.python
 ms-vsliveshare.vsliveshare
 octref.vetur
-robertohuertasm.vscode-icons
 shyykoserhiy.vscode-spotify
 VisualStudioExptTeam.vscodeintellicode
+vscode-icons-team.vscode-icons
 WakaTime.vscode-wakatime

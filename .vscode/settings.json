@@ -9,12 +9,15 @@
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.fontFamily": "Hack Nerd Font",
     "editor.foldingStrategy": "indentation",
-    "toggl.apiKey": "",
+    "toggl.apiKey": "dcb40592d2003284233b436cd6e31b74",
     "python.jediEnabled": false,
     "spotify.showToggleRepeatingButton": true,
     "liveshare.account": "WQQB-RVPQ-ZJZK-RBKR",
     "window.title": "${folderPath}${separator}${activeEditorShort}${separator}${rootName}",
     "breadcrumbs.enabled": true,
     "window.restoreWindows": "all",
-    "workbench.iconTheme": "seti"
+    "workbench.iconTheme": "seti",
+    "window.titleBarStyle": "custom",
+    "editor.suggestSelection": "recentlyUsed",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
