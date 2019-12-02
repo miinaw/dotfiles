@@ -3,3 +3,4 @@ alias del-dsstore="find . -name '.DS_Store' -type f -ls -delete"
 alias rm="rm -i"
 alias ls="colorls"
 alias python=python3
+alias cd -="cd -"
